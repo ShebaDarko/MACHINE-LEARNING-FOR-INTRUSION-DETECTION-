@@ -24,7 +24,7 @@ $$
 where $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$ denotes the predicted output for the $i$-th sample.
 
 
-A deep learning model operates by receiving input data and passing it through multiple layers of computation. These layers progressively transform the input, resulting in an output. This output is then compared to the desired target, allowing the model to assess its performance. Through the backward pass of backpropagation, the model computes gradients of the loss function with respect to its parameters.
+A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
 
 \subsection*{Intrusion Detection Optimization Problem}
 
