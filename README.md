@@ -11,7 +11,7 @@ Explore cutting-edge ML techniques tailored for enhancing cybersecurity by detec
 Utilizing both supervised and unsupervised learning approaches to tackle cybersecurity challenges:
 
 - **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
-- **Unsupervised Learning:** Employing anomaly detection methods like Autoencoders to identify irregular network behaviors.
+- **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
 
 ### Classification Techniques 📊
 
@@ -48,4 +48,4 @@ Clone the repository to replicate experiments or explore the implementation of M
 
 ## Conclusion 🌟
 
-Unlock the potential of ML in cybersecurity, paving the way for proactive intrusion detection systems that safeguard digital assets effectively.
+Unlock the potential of ML in cybersecurity, leveraging k-means clustering and PCA for proactive intrusion detection systems that safeguard digital assets effectively.
