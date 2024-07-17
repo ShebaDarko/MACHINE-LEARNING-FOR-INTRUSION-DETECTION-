@@ -13,12 +13,13 @@ Explore ML techniques tailored for enhancing cybersecurity by detecting and miti
 The machine learning model framework inherently presents itself as an optimization problem whose objective is the minimization of a loss function. The model consists of \( f_{\theta} : X \rightarrow Y \), where \( f : X \times \Theta \rightarrow Y \) and \( (x, y) \in X \times Y \). The core objective in machine learning optimization is to minimize the loss function \( L : Y \times \mathbb{R} \rightarrow \mathbb{R}^{+} \) by adjusting the model parameters \( \theta \in \Theta \).
 
 $$
-Given a function f_{\theta} : X \times Y \rightarrow X_{i+1} \text{ for each layer } i \text{ in a neural network with } L \text{ layers, where inputs } x^{(i)} \in X \text{ and } y \in Y, \text{ the prediction task aims to develop a model } f_{\theta} : X \rightarrow Y \text{ that provides accurate predictions of the true label } y \text{ for unseen pairs } (x, y) \in X \times Y.
+\text{Given a function } f_{\theta} : X \times Y \rightarrow X_{i+1} \text{ for each layer } i \text{ in a neural network with } L \text{ layers, where inputs } x^{(i)} \in X \text{ and } y \in Y, \text{ the prediction task aims to develop a model } f_{\theta} : X \rightarrow Y \text{ that provides accurate predictions of the true label } y \text{ for unseen pairs } (x, y) \in X \times Y.
 $$
 
 $$
 \text{The deep learning model aims to learn a function } f(x; \theta) \text{ parameterized by weights and biases } \theta \text{ that minimizes a predefined loss function } L(y, F(x; \theta)). \text{ The parameters } \theta \text{ are optimized by minimizing the loss function over the training dataset:}
 $$
+
 
 
 $$ \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta)) $$
