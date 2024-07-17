@@ -1,13 +1,13 @@
 # 🛡️ Machine Learning for Intrusion Detection in Cybersecurity 🌐
 
 Welcome to the repository showcasing my thesis work on leveraging Machine Learning (ML) for Intrusion Detection in Cybersecurity!
-
-## Thesis Work Overview 📚
-
 Explore ML techniques tailored for enhancing cybersecurity by detecting and mitigating intrusions in real-time.
 
+
 ### Method Description 🛠️
-Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
+Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. 
+The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. 
+The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
 
 $$
 \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta))
@@ -25,7 +25,9 @@ where $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_
 A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
 
 **Intrusion Detection Optimization Problem**
-In intrusion detection, this algorithm categorizes network flows as benign or malicious, using a machine learning model to map input $x$ to output $y$. Output $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of attacks, maximizing $y = (f(x)_i + \epsilon_i)$ with model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
+In intrusion detection, this algorithm categorizes network flows as benign or malicious, using a machine learning model to map input $x$ to output $y$. 
+Output $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of attacks, 
+maximizing $y = (f(x)_i + \epsilon_i)$ with model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
 
 The decision process categorizes network flows as :
 **For Binary Classification**
