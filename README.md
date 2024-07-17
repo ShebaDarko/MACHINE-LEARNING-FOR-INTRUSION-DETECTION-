@@ -23,13 +23,13 @@ The machine learning model framework inherently presents itself as an optimizati
 Given a function $f_{\theta} : X \times Y \rightarrow X_{i+1}$ for each layer $i$ in a neural network with $L$ layers, where inputs $x^{(i)} \in X$ and $y \in Y$, the prediction task aims to develop a model $f_{\theta} : X \rightarrow Y$ that provides accurate predictions of the true label $y$ for unseen pairs $(x, y) \in X \times Y$.
 
 The deep learning model aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
-\[
+$$
 \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta))
-\]
+$$
 where $\theta^*$ represents the optimal parameters of the neural network. The gradient of the loss function is computed as:
-\[
+$$
 \nabla_{\theta} L(x, \hat{y}) = -\sum_{i=1}^{n} \nabla_{\theta} L(f(\theta, x_i), \hat{y}_i)
-\]
+$$
 where $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$ denotes the predicted output for the $i$-th sample.
 
 A deep learning model operates by receiving input data and passing it through multiple layers of computation. These layers progressively transform the input, resulting in an output. This output is then compared to the desired target, allowing the model to assess its performance. Through the backward pass of backpropagation, the model computes gradients of the loss function with respect to its parameters.
