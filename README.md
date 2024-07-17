@@ -47,32 +47,33 @@ In the context of intrusion detection, this machine-learning algorithm categoriz
 
 The decision process can be represented as:
 
-\[
+$$
 \text{Classify as malicious: } \begin{cases} 
 1 & \text{if } P(M) > \tau \\
 0 & \text{otherwise}
 \end{cases}
-\]
+$$
 
-\[
+$$
 \text{Classify as benign: } \begin{cases} 
 1 & \text{if } P(M) \leq \tau \\
 0 & \text{otherwise}
 \end{cases}
-\]
+$$
 
 \subsubsection*{Multi-Classification:}
 
 The decision process for class $k$ can be represented as:
 
-\[
+$$
 \text{Classify as class } k: \begin{cases} 
 1 & \text{if } P(k) = \max(P(1), P(2), \ldots, P(K)) \\
 0 & \text{otherwise}
 \end{cases}
-\]
+$$
 
 where $P(k)$ represents the probability that a given observation belongs to class $k$, and $K$ represents the total number of classes.
+
 
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
 - **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
