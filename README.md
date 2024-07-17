@@ -10,10 +10,6 @@ confusion matrix classifying attack types in data.
   </tr>
 </table>
 
-<p align="center">
-  <img src="docs/images/mlp.png" width="400" />
-</p>
-
 
 # Method Description 🛠️
 Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. 
