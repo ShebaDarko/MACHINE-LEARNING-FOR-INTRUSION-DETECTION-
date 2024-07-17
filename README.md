@@ -23,6 +23,7 @@ The machine learning model framework inherently presents itself as an optimizati
 Given a function $f_{\theta} : X \times Y \rightarrow X_{i+1}$ for each layer $i$ in a neural network with $L$ layers, where inputs $x^{(i)} \in X$ and $y \in Y$, the prediction task aims to develop a model $f_{\theta} : X \rightarrow Y$ that provides accurate predictions of the true label $y$ for unseen pairs $(x, y) \in X \times Y$.
 
 The deep learning model aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
+
 $$
 \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta))
 $$
