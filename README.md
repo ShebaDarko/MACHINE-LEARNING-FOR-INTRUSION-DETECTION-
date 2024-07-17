@@ -3,7 +3,12 @@
 The Machine learning framework aims as  enhancing detections  and mitigating intrusions in real-time in network data results in 
 confusion matrix classifying attack types in data. 
 
-![mlp.png](mlp.png)
+<table>
+  <tr>
+    <td><img src="mlp.png" alt="Image 1" width="400px"></td>
+    <td><img src="confusion matrix.png.png" alt="Image 2" width="400px"></td>
+  </tr>
+</table>
 
 # Method Description 🛠️
 Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. 
