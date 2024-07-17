@@ -9,16 +9,7 @@ Explore ML techniques tailored for enhancing cybersecurity by detecting and miti
 ### Methodology 🛠️
 
 # Machine Learning Model Framework for Intrusion Detection
-Machine learning and deep learning models are optimized to minimize a loss function $L$. The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. This involves finding $\theta^*$ by minimizing:
-
-$$
-\sum_{i=1}^{N} L(y_i, f(x_i; \theta)),
-$$
-
-where $\theta^*$ are the optimal parameters found through gradient descent, refining $\theta$ iteratively based on $\nabla_{\theta} L$.
-
-
-The deep learning model aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
+Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
 
 $$
 \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta))
