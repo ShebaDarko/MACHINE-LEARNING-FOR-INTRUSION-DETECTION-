@@ -5,8 +5,8 @@ confusion matrix classifying attack types in data.
 
 <table>
   <tr>
-    <td><img src="mlp.png" alt="Image 1" width="400px"></td>
-    <td><img src="Confusion matrix accurate.png" alt="Image 2" width="400px"></td>
+    <td><img src="mlp.png" alt="Image 1" width="500px"></td>
+    <td><img src="Confusion matrix accurate.png" alt="Image 2" width="500px"></td>
   </tr>
 </table>
 
