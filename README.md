@@ -17,12 +17,6 @@ $$
 
 where $\theta^*$ are the optimal parameters found through gradient descent, refining $\theta$ iteratively based on $\nabla_{\theta} L$.
 
-In the context of neural networks, each layer $i$ transforms its input $x^{(i)} \in X$ to $x^{(i+1)}$ using the function $f_{\theta}$. The model aims to learn a function $f(x; \theta)$ parameterized by $\theta$ that minimizes $L(y, f(x; \theta))$. The prediction task is to develop a model $f_{\theta} : X \rightarrow Y$ that accurately predicts the true label $y$ for unseen pairs $(x, y) \in X \times Y$.
-
-
-The machine learning model framework inherently presents itself as an optimization problem whose objective is the minimization of a loss function. The model consists of $f_{\theta} : X \rightarrow Y$, where $f : X \times \Theta \rightarrow Y$ and $(x, y) \in X \times Y$. The core objective in machine learning optimization is to minimize the loss function $L : Y \times \mathbb{R} \rightarrow \mathbb{R}^{+}$ by adjusting the model parameters $\theta \in \Theta$.
-
-Given a function $f_{\theta} : X \times Y \rightarrow X_{i+1}$ for each layer $i$ in a neural network with $L$ layers, where inputs $x^{(i)} \in X$ and $y \in Y$, the prediction task aims to develop a model $f_{\theta} : X \rightarrow Y$ that provides accurate predictions of the true label $y$ for unseen pairs $(x, y) \in X \times Y$.
 
 The deep learning model aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
 
