@@ -26,11 +26,15 @@ The deep learning model aims to learn a function $f(x; \theta)$ parameterized by
 $$
 \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta))
 $$
+
 where $\theta^*$ represents the optimal parameters of the neural network. The gradient of the loss function is computed as:
+
 $$
 \nabla_{\theta} L(x, \hat{y}) = -\sum_{i=1}^{n} \nabla_{\theta} L(f(\theta, x_i), \hat{y}_i)
 $$
+
 where $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$ denotes the predicted output for the $i$-th sample.
+
 
 A deep learning model operates by receiving input data and passing it through multiple layers of computation. These layers progressively transform the input, resulting in an output. This output is then compared to the desired target, allowing the model to assess its performance. Through the backward pass of backpropagation, the model computes gradients of the loss function with respect to its parameters.
 
