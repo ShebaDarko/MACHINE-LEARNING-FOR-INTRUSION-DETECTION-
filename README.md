@@ -6,9 +6,7 @@ Welcome to the repository showcasing my thesis work on leveraging Machine Learni
 
 Explore ML techniques tailored for enhancing cybersecurity by detecting and mitigating intrusions in real-time.
 
-### Methodology 🛠️
-
-# Machine Learning Model Framework for Intrusion Detection
+### Method Description 🛠️
 Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
 
 $$
