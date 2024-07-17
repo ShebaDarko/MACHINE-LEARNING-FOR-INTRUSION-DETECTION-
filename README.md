@@ -9,7 +9,7 @@ Explore ML techniques tailored for enhancing cybersecurity by detecting and miti
 ### Methodology 🛠️
 
 # Machine Learning Model Framework for Intrusion Detection
-Machine learning and deep learning frameworks are structured around optimizing models, such as neural networks, to minimize a defined loss function $ L $. $L(y, F(x; \theta))$ The objective is to adjust parameters $ \theta $ to create a function $ f_{\theta} : X \rightarrow Y $ that accurately predicts labels $ y $ for new data $ x $. Optimization involves finding $ \theta^* $ by minimizing
+Machine learning and deep learning frameworks are structured around optimizing models, such as neural networks, to minimize a defined loss function $L$. $L(y, F(x; \theta))$ The objective is to adjust parameters $ \theta $ to create a function $ f_{\theta} : X \rightarrow Y $ that accurately predicts labels $ y $ for new data $ x $. Optimization involves finding $ \theta^* $ by minimizing
 
 $$
 \sum_{i=1}^{N} L(y_i, f(x_i; \theta)),
