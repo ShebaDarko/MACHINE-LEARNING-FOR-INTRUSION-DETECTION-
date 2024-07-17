@@ -1,6 +1,7 @@
 # 🛡️ Machine Learning for Intrusion Detection in Cybersecurity 🌐
 
-The Machine learning framework aims as  enhancing detections  and mitigating intrusions in real-time in network data
+The Machine learning framework aims as  enhancing detections  and mitigating intrusions in real-time in network data results in 
+confusion matrix classifying attack types in data. 
 
 
 ### Method Description 🛠️
