@@ -12,7 +12,6 @@ confusion matrix classifying attack types in data.
 
 <p align="center">
   <img src="docs/images/mlp.png" width="400" />
-  <img src="docs/images/Confusion%20matrix%20accurate.png" width="400" />
 </p>
 
 
