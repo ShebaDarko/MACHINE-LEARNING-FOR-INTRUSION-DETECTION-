@@ -4,14 +4,42 @@ Welcome to the repository showcasing my thesis work on leveraging Machine Learni
 
 ## Thesis Work Overview 📚
 
-Explore cutting-edge ML techniques tailored for enhancing cybersecurity by detecting and mitigating intrusions in real-time.
+Explore ML techniques tailored for enhancing cybersecurity by detecting and mitigating intrusions in real-time.
 
-### Method Description 🛠️
+### Methodology 🛠️
+
+The machine learning model framework inherently presents itself as an optimization problem whose objective is the minimization of a loss function. The model consists of \( f_{\theta} : X \rightarrow Y \), where \( f : X \times \Theta \rightarrow Y \) and \( (x, y) \in X \times Y \). The core objective in machine learning optimization is to minimize the loss function \( L : Y \times \mathbb{R} \rightarrow \mathbb{R}^{+} \) by adjusting the model parameters \( \theta \in \Theta \).
+
+Given a function \( f_{\theta} : X \times Y \rightarrow X_{i+1} \) for each layer \( i \) in a neural network with \( L \) layers, where inputs \( x^{(i)} \in X \) and \( y \in Y \), the prediction task aims to develop a model \( f_{\theta} : X \rightarrow Y \) that provides accurate predictions of the true label \( y \) for unseen pairs \( (x, y) \in X \times Y \).
+
+The deep learning model aims to learn a function \( f(x; \theta) \) parameterized by weights and biases \( \theta \) that minimizes a predefined loss function \( L(y, F(x; \theta)) \). The parameters \( \theta \) are optimized by minimizing the loss function over the training dataset:
+
+\[ \theta^* = \arg\min_{\theta} \sum_{i=1}^{N} L(y_i, F(x_i; \theta)) \]
+
+where \( \theta^* \) represents the optimal parameters of the neural network. The gradient of the loss function is computed as:
+
+\[ \nabla_{\theta} L(x, \hat{y}) = -\sum_{i=1}^{n} \nabla_{\theta} L(f(\theta, x_i), \hat{y}_i) \]
+
+where \( f \) represents the neural network parameterized by \( \theta \), and \( \hat{y}_i \) denotes the predicted output for the \( i \)-th sample.
+
+A deep learning model operates by receiving input data and passing it through multiple layers of computation. These layers progressively transform the input, resulting in an output. This output is then compared to the desired target, allowing the model to assess its performance. Through the backward pass of backpropagation, the model computes gradients of the loss function with respect to its parameters.
+
+## Intrusion Detection Optimization Problem
+
+In the context of intrusion detection, this machine-learning algorithm categorizes network flows as either benign or malicious. Each network flow acts as an input to the algorithm, initiating a classification process. The algorithm employs a machine learning model that maps the input \( x \) to an output \( y \). This output \( y \) corresponds to a class determined by the index \( i \) of the function \( f : \mathbb{R}^n \rightarrow \{1, \ldots, k\} \), where \( k = 2 \) for binary classification and \( k \geq 3 \) for multi-classification of specific types of attacks. The model selects the class that maximizes the function \( y = (f(x)_i + \epsilon_i) \), incorporating both the model’s prediction \( f(x)_i \) and the associated uncertainty \( \epsilon_i \).
+
+### Binary Classification:
+
+The decision process can be represented as:
+
+- Classify as malicious:
+
 
 Utilizing both supervised and unsupervised learning approaches to tackle cybersecurity challenges:
 
-- **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
+- **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
+
 
 ### Classification Techniques 📊
 
