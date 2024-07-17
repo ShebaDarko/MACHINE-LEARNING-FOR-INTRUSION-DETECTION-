@@ -5,7 +5,7 @@ confusion matrix classifying attack types in data.
 
 ![cmx.png](cmx.png)
 
-### Method Description 🛠️
+# Method Description 🛠️
 Machine learning and deep learning models aims to learn a function $f(x; \theta)$ parameterized by weights and biases $\theta$ that minimizes a predefined loss function $L(y, F(x; \theta))$. 
 The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. 
 The parameters $\theta$ are optimized by minimizing the loss function over the training dataset:
