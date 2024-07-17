@@ -26,7 +26,7 @@ A deep learning model processes input through multiple layers to produce an outp
 
 \subsection*{Intrusion Detection Optimization Problem}
 
-In the context of intrusion detection, this machine-learning algorithm categorizes network flows as either benign or malicious. Each network flow acts as an input to the algorithm, initiating a classification process. The algorithm employs a machine learning model that maps the input $x$ to an output $y$. This output $y$ corresponds to a class determined by the index $i$ of the function $f : \mathbb{R}^n \rightarrow \{1, \ldots, k\}$, where $k = 2$ for binary classification and $k \geq 3$ for multi-classification of specific types of attacks. The model selects the class that maximizes the function $y = (f(x)_i + \epsilon_i)$, incorporating both the model’s prediction $f(x)_i$ and the associated uncertainty $\epsilon_i$.
+In intrusion detection, this algorithm categorizes network flows as benign or malicious. Each network flow serves as input, initiating classification using a machine learning model mapping $x$ to output $y$. $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of specific attacks. The model selects the class maximizing $y = (f(x)_i + \epsilon_i)$, incorporating model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
 
 \subsubsection*{Binary Classification:}
 
