@@ -9,13 +9,15 @@ Explore ML techniques tailored for enhancing cybersecurity by detecting and miti
 ### Methodology 🛠️
 
 # Machine Learning Model Framework for Intrusion Detection
-Machine learning and deep learning frameworks are structured around optimizing models, such as neural networks, to minimize a defined loss function $L$. The objective is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. Optimization involves finding $\theta^*$ by minimizing
+Machine learning and deep learning models are optimized to minimize a loss function $L$. The goal is to adjust parameters $\theta$ to create a function $f_{\theta} : X \rightarrow Y$ that accurately predicts labels $y$ for new data $x$. This involves finding $\theta^*$ by minimizing:
 
 $$
 \sum_{i=1}^{N} L(y_i, f(x_i; \theta)),
 $$
 
-where $\theta^*$ are optimal parameters determined through gradient descent, refining $\theta$ iteratively based on $\nabla_{\theta} L$.
+where $\theta^*$ are the optimal parameters found through gradient descent, refining $\theta$ iteratively based on $\nabla_{\theta} L$.
+
+In the context of neural networks, each layer $i$ transforms its input $x^{(i)} \in X$ to $x^{(i+1)}$ using the function $f_{\theta}$. The model aims to learn a function $f(x; \theta)$ parameterized by $\theta$ that minimizes $L(y, f(x; \theta))$. The prediction task is to develop a model $f_{\theta} : X \rightarrow Y$ that accurately predicts the true label $y$ for unseen pairs $(x, y) \in X \times Y$.
 
 
 The machine learning model framework inherently presents itself as an optimization problem whose objective is the minimization of a loss function. The model consists of $f_{\theta} : X \rightarrow Y$, where $f : X \times \Theta \rightarrow Y$ and $(x, y) \in X \times Y$. The core objective in machine learning optimization is to minimize the loss function $L : Y \times \mathbb{R} \rightarrow \mathbb{R}^{+}$ by adjusting the model parameters $\theta \in \Theta$.
