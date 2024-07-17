@@ -24,7 +24,7 @@ where $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_
 
 A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
 
-#{Intrusion Detection Optimization Problem}
+**{Intrusion Detection Optimization Problem}**
 
 In intrusion detection, this algorithm categorizes network flows as benign or malicious, using a machine learning model to map input $x$ to output $y$. Output $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of attacks, maximizing $y = (f(x)_i + \epsilon_i)$ with model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
 
