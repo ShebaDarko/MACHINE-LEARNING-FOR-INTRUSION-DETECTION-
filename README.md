@@ -77,14 +77,14 @@ Unleash the power of AI-driven classification with:
 - **CNN (Convolutional Neural Network):** Specialized in extracting features from sequential data.
 - **RNN (Recurrent Neural Network):** Ideal for capturing temporal patterns in network traffic.
 
-### Experiments 🧪
+# Experiments 🧪
 
 Dive into the experiments that push the boundaries of cybersecurity:
 
 - Evaluating model performance on diverse datasets including KDDCup '99.
 - Metrics analysis: Precision, recall, and F1-score to gauge detection efficacy.
 
-### Results 📈
+# Results 📈
 
 Discover groundbreaking insights:
 
