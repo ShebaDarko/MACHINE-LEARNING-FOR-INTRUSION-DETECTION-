@@ -57,13 +57,12 @@ $$
 
 where $P(k)$ represents the probability that a given observation belongs to class $k$, and $K$ represents the total number of classes.
 
-
+### Classification Techniques 📊
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
 - **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
 
 
-### Classification Techniques 📊
-
+### Supervised Neural Network Methods 🧠
 Unleash the power of AI-driven classification with:
 
 - **MLP (Multi-Layer Perceptron):** Versatile and powerful for supervised learning tasks.
