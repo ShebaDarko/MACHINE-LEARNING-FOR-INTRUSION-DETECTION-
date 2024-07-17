@@ -1,7 +1,6 @@
 # 🛡️ Machine Learning for Intrusion Detection in Cybersecurity 🌐
 
-Welcome to the repository showcasing my thesis work on leveraging Machine Learning (ML) for Intrusion Detection in Cybersecurity!
-Explore ML techniques tailored for enhancing cybersecurity by detecting and mitigating intrusions in real-time.
+The Machine learning framework aims as  enhancing detections  and mitigating intrusions in real-time in network data
 
 
 ### Method Description 🛠️
