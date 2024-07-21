@@ -78,8 +78,8 @@ The different experiments can be executed as Jupyter notebooks in the notebooks 
   
 <table>
   <tr>
-    <td><img src="src/_plot/splot.png" alt="Image 1" width="500px"></td>
-    <td><img src="src/_plot/pca.png" alt="Image 2" width="500px"></td>
+    <td><img src="src/_plot/splot.png" alt="Image 1" width="400px"></td>
+    <td><img src="src/_plot/pca.png" alt="Image 2" width="400px"></td>
   </tr>
 </table>
 
