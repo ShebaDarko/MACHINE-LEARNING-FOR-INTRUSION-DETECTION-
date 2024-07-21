@@ -97,7 +97,9 @@ Classification shows that:
   ![Alt text](src/_plot/rnn.png)
 
 - **SNN (Sequential Neural Network):** Most efficient in real-time detection with temporal dependencies.
-![Alt text](src/_plot/snn.png){:width="300"}
+![Alt text](src/_plot/snn.png){:width="400"}
+<img src="src/_plot/snn.png" alt="Alt text" width="400"/>
+
 
 - **Metrics analysis:** Precision, recall, and F1-score to gauge detection efficacy.
 
