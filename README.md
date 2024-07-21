@@ -91,11 +91,12 @@ Classification shows that:
   ![Alt text](src/_plot/mlp.png)
 
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
- ![Alt text](src/_plot/cnn.png)
+
+ <img src="src/_plot/cnn.png" alt="Alt text" width="500"/>
 
 - **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
  
-  <img src="src/_plot/rnn.png" alt="Alt text" width="700"/>
+  <img src="src/_plot/rnn.png" alt="Alt text" width="500"/>
 
 - **SNN (Sequential Neural Network):** Most efficient in real-time detection with temporal dependencies.
 - 
