@@ -24,11 +24,11 @@ where $\theta^*$ represents the optimal parameters of the neural network. The gr
 $$
 \nabla_{\theta} L(x, \hat{y}) = -\sum_{i=1}^{n} \nabla_{\theta} L(f(\theta, x_i), \hat{y}_i)
 $$
-
 and $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$ denotes the predicted output for the $i$-th sample.
 
 
 A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
+![Alt text](src/_plot/nn_pipeline.png)
 
 **Intrusion Detection Optimization Problem**
 
@@ -36,7 +36,6 @@ In intrusion detection, this algorithm categorizes network flows as benign or ma
 Output $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of attacks, 
 maximizing $y = (f(x)_i + \epsilon_i)$ with model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
 
-![Alt text](src/_plot/nn_pipeline.png)
 
 The decision process categorizes network flows as :
 
