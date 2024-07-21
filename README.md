@@ -31,6 +31,10 @@ and $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$
 A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
 ![Alt text](src/_plot/nn_pipeline.png)
   <img src="src/_plot/nn_pipeline.png" alt="Alt text" width="700"/>
+  <p align="center">
+  <img src="src/_plot/nn_pipeline.png" alt="Alt text" width="700"/>
+</p>
+
 **Intrusion Detection Optimization Problem**
 
 In intrusion detection, this algorithm categorizes network flows as benign or malicious, using a machine learning model to map input $x$ to output $y$. 
