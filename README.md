@@ -71,11 +71,14 @@ where $P(k)$ represents the probability that a given observation belongs to clas
 
 
 ### Supervised Neural Network Methods 🧠
-Unleash the power of AI-driven classification with:
+Classification with:
 
-- **MLP (Multi-Layer Perceptron):** Versatile and powerful for supervised learning tasks.
-- **CNN (Convolutional Neural Network):** Specialized in extracting features from sequential data.
-- **RNN (Recurrent Neural Network):** Ideal for capturing temporal patterns in network traffic.
+- **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
+- **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
+- **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
+- SNN (Sequential Neural Network): Most efficient in real-time detection with temporal dependencies.
+
+
 
 # Experiments 🧪
 
