@@ -89,7 +89,7 @@ Classification shows that:
 
 - **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
 
-   <img src="src/_plot/mlp.png" alt="Alt text" width="700"/>
+   <img src="src/_plot/mlp.png" alt="Alt text" width="500"/>
 
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
 
