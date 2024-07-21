@@ -65,6 +65,12 @@ $$
 
 where $P(k)$ represents the probability that a given observation belongs to class $k$, and $K$ represents the total number of classes.
 
+
+
+# Experiments 🧪
+
+The different experiments can be executed as Jupyter notebooks in the notebooks folder.
+
 ### Classification Techniques 📊
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
 - **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
@@ -76,16 +82,8 @@ Classification with:
 - **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
 - **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
-- SNN (Sequential Neural Network): Most efficient in real-time detection with temporal dependencies.
-
-
-
-# Experiments 🧪
-
-The different experiments can be executed as Jupyter notebooks in the notebooks folder.
-
-- Evaluating model performance on diverse datasets including KDDCup '99.
-- Metrics analysis: Precision, recall, and F1-score to gauge detection efficacy.
+- **SNN (Sequential Neural Network):** Most efficient in real-time detection with temporal dependencies.
+- **Metrics analysis:** Precision, recall, and F1-score to gauge detection efficacy.
 
 # Results 📈
 
