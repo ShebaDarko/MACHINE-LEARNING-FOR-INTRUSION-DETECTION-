@@ -24,6 +24,7 @@ where $\theta^*$ represents the optimal parameters of the neural network. The gr
 $$
 \nabla_{\theta} L(x, \hat{y}) = -\sum_{i=1}^{n} \nabla_{\theta} L(f(\theta, x_i), \hat{y}_i)
 $$
+
 and $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$ denotes the predicted output for the $i$-th sample.
 
 
