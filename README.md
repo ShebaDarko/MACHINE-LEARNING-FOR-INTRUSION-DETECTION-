@@ -103,8 +103,6 @@ Classification shows that:
 
 # Results 📈
 
-Discover groundbreaking insights:
-
 - Enhanced accuracy in identifying advanced cyber threats.
 - Minimized false positives through optimized ML models.
 - Comparative performance of MLP, CNN, and RNN in intrusion detection tasks.
@@ -154,10 +152,7 @@ Project/
 3. Run the main script `python src/main.py`.
 4. The models are trained and tested on the KDD99 Cup Dataset.
 
-## References
 
-1. KDD Cup 1999 Dataset: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
-2. TensorFlow: https://www.tensorflow.org/
 
 ## Conclusion 🌟
 
@@ -166,6 +161,10 @@ Unlock the potential of ML in cybersecurity, leveraging NN for intrusion detecti
 
 ### References 📚
 
-- [Reference 1: Title or Description of the Reference](link)
+- [KDD Cup 1999 Dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 - [Reference 2: Title or Description of the Reference](link)
 - [Reference 3: Title or Description of the Reference](link)
+## References
+
+1. KDD Cup 1999 Dataset: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+2. TensorFlow: https://www.tensorflow.org/
