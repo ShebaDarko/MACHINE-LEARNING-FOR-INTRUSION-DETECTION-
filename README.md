@@ -73,7 +73,8 @@ where $P(k)$ represents the probability that a given observation belongs to clas
 
 # Experiments 🧪
 
-The different experiments can be executed as Jupyter notebooks in the notebooks folder.
+The different experiments can be executed as Jupyter notebooks located in the [notebooks folder](./notebooks).
+
 
 ### Classification Techniques 📊
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
