@@ -144,7 +144,7 @@ Project/
 ├── requirements.txt
 └── .gitignore   
 
-
+\```
 ## How to Run
 
 1. Clone the repository.
@@ -159,7 +159,7 @@ Project/
 Machine learning architectures, including MLP, CNN, RNN, and SNN, are crucial in fortifying network intrusion detection systems to accurately detect and thwart cyber threats.
 
 
-# References 📚
+## References 📚
 
 1. KDD Cup 1999 Dataset: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
 2. TensorFlow: https://www.tensorflow.org/
