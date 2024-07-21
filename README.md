@@ -95,7 +95,7 @@ Classification shows that:
 
 - **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
  
-  img src="src/_plot/rnn.png" alt="Alt text" width="700"/>
+  <img src="src/_plot/rnn.png" alt="Alt text" width="700"/>
 
 - **SNN (Sequential Neural Network):** Most efficient in real-time detection with temporal dependencies.
 - 
