@@ -4,8 +4,8 @@ This project focuses on leveraging machine learning algorithms, particularly opt
 
 <table>
   <tr>
-    <td><img src="src/_plot/cm_mlp.png" alt="Image 1" width="500px"></td>
-    <td><img src="src/_plot/cm_rnn.png" alt="Image 2" width="500px"></td>
+    <td><img src="src/_plot/cm_mlp.png" alt="Image 1" width="400px"></td>
+    <td><img src="src/_plot/cm_rnn.png" alt="Image 2" width="400px"></td>
   </tr>
 </table>
 
