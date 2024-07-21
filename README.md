@@ -144,15 +144,13 @@ Project/
 ├── requirements.txt
 └── .gitignore   
 
-\```
 ## How to Run
 
 1. Clone the repository.
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Run the main script `python src/main.py`.
 4. The models are trained and tested on the KDD99 Cup Dataset.
-
-
+```
 
 ## Conclusion 🌟
 
