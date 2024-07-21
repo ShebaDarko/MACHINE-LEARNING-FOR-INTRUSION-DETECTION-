@@ -75,14 +75,30 @@ The different experiments can be executed as Jupyter notebooks in the notebooks 
 
 ### Classification Techniques 📊
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
+  
+<table>
+  <tr>
+    <td><img src="src/_plot/splot.png" alt="Image 1" width="500px"></td>
+    <td><img src="src/_plot/pca.png" alt="Image 2" width="500px"></td>
+  </tr>
+</table>
+
 - **Supervised Learning:** Training Neural Network with MLP, CNN, and RNN models on labeled datasets for precise threat classification.
 
 Classification shows that:
 
 - **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
+  ![Alt text](src/_plot/mlp.png)
+
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
+ ![Alt text](src/_plot/cnn.png)
+
 - **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
+  ![Alt text](src/_plot/rnn.png)
+
 - **SNN (Sequential Neural Network):** Most efficient in real-time detection with temporal dependencies.
+![Alt text](src/_plot/snn.png)
+
 - **Metrics analysis:** Precision, recall, and F1-score to gauge detection efficacy.
 
 # Results 📈
