@@ -149,4 +149,4 @@ Project/
 
 ## Conclusion 🌟
 
-Unlock the potential of ML in cybersecurity, leveraging k-means clustering and PCA for proactive intrusion detection systems that safeguard digital assets effectively.
+Unlock the potential of ML in cybersecurity, leveraging NN for intrusion detection systems that safeguard digital assets effectively.
