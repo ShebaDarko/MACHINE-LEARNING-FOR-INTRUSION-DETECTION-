@@ -88,11 +88,12 @@ The different experiments can be executed as Jupyter notebooks in the notebooks 
 Classification shows that:
 
 - **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
-  ![Alt text](src/_plot/mlp.png)
+
+   <img src="src/_plot/mlp.png" alt="Alt text" width="700"/>
 
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
 
- <img src="src/_plot/cnn.png" alt="Alt text" width="500"/>
+ <img src="src/_plot/cnn.png" alt="Alt text" width="700"/>
 
 - **RNN (Recurrent Neural Network):** Effective in capturing temporal patterns and real-time detection.
  
