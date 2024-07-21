@@ -29,10 +29,8 @@ and $f$ represents the neural network parameterized by $\theta$, and $\hat{y}_i$
 
 
 A deep learning model processes input through multiple layers to produce an output, compares it to the target, and uses backpropagation to compute gradients and optimize parameters.
-![Alt text](src/_plot/nn_pipeline.png)
-  <img src="src/_plot/nn_pipeline.png" alt="Alt text" width="700"/>
   <p align="center">
-  <img src="src/_plot/nn_pipeline.png" alt="Alt text" width="700"/>
+  <img src="src/_plot/nn_pipeline.png" alt="Alt text" width="800"/>
 </p>
 
 **Intrusion Detection Optimization Problem**
