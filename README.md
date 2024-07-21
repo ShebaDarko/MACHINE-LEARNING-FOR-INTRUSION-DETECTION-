@@ -75,11 +75,9 @@ The different experiments can be executed as Jupyter notebooks in the notebooks 
 
 ### Classification Techniques 📊
 - **Unsupervised Learning:** Employing k-means clustering and PCA for anomaly detection and dimensionality reduction.
-- **Supervised Learning:** Training MLP, CNN, and RNN models on labeled datasets for precise threat classification.
+- **Supervised Learning:** Training Neural Network with MLP, CNN, and RNN models on labeled datasets for precise threat classification.
 
-
-### Supervised Neural Network Methods 🧠
-Classification with:
+Classification shows that:
 
 - **MLP (Multi-Layer Perceptron):** High accuracy in identifying malicious vs. benign traffic.
 - **CNN (Convolutional Neural Network):** Superior accuracy with low false positives and negatives.
