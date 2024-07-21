@@ -93,11 +93,6 @@ Discover groundbreaking insights:
 - Minimized false positives through optimized ML models.
 - Comparative performance of MLP, CNN, and RNN in intrusion detection tasks.
 
-### References 📚
-
-- [Reference 1: Title or Description of the Reference](link)
-- [Reference 2: Title or Description of the Reference](link)
-- [Reference 3: Title or Description of the Reference](link)
 
 ## Usage 🚀
 
@@ -151,3 +146,10 @@ Project/
 ## Conclusion 🌟
 
 Unlock the potential of ML in cybersecurity, leveraging NN for intrusion detection systems that safeguard digital assets effectively.
+
+
+### References 📚
+
+- [Reference 1: Title or Description of the Reference](link)
+- [Reference 2: Title or Description of the Reference](link)
+- [Reference 3: Title or Description of the Reference](link)
