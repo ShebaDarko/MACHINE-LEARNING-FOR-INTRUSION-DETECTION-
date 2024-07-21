@@ -156,15 +156,10 @@ Project/
 
 ## Conclusion 🌟
 
-Unlock the potential of ML in cybersecurity, leveraging NN for intrusion detection systems that safeguard digital assets effectively.
+Machine learning architectures, including MLP, CNN, RNN, and SNN, are crucial in fortifying network intrusion detection systems to accurately detect and thwart cyber threats.
 
 
-### References 📚
-
-- [KDD Cup 1999 Dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
-- [Reference 2: Title or Description of the Reference](link)
-- [Reference 3: Title or Description of the Reference](link)
-## References
+# References 📚
 
 1. KDD Cup 1999 Dataset: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
 2. TensorFlow: https://www.tensorflow.org/
