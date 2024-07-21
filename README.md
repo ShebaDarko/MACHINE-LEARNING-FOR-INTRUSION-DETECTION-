@@ -36,7 +36,7 @@ In intrusion detection, this algorithm categorizes network flows as benign or ma
 Output $y$ corresponds to a class determined by $i$ in $f : \mathbb{R}^n \rightarrow {1, \ldots, k}$, where $k = 2$ for binary and $k \geq 3$ for multi-classification of attacks, 
 maximizing $y = (f(x)_i + \epsilon_i)$ with model prediction $f(x)_i$ and uncertainty $\epsilon_i$.
 
-![Alt text](src/_src/_plot/nn_pipeline.png)
+![Alt text](src/_plot/nn_pipeline.png)
 
 The decision process categorizes network flows as :
 
